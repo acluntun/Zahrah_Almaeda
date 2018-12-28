@@ -150,3 +150,78 @@ h4 {
     object-position: center;
     height: 50vh;
 }
+
+
+/* START MOBILE */
+
+@media screen and (max-width: 780px) {
+    .main-sec {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 5vw;
+    }
+    h1 {
+        font-size: 3.5em;
+    }
+    .main-sec div {
+        margin: 1vh 0;
+    }
+
+    .about-body {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 5vw;
+        padding: 2vw;
+    }
+
+    .main-div-first {
+        width: 100%;
+        justify-content: center;
+    }
+/*
+    .main-div-second {
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .main-div-third {
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    */
+
+    .main-div-first p, .main-div-second p {
+        align-self: start;
+        justify-self: start;
+        margin: 10px;
+    }
+    h2 {
+        font-size: 4vw;
+        margin: 0;
+    }
+    
+    h3 {
+        font-size: 3vw;
+    }
+
+    .menu-main {
+        
+    }
+
+    .body-cols{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr;
+    }
+    .main-div-first-small {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-sec {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
+
+/* END MOBILE */
