@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+body {
+    background-color: white;
+}
+
+h1{
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 15vh;
+    color: #900C3F;
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 0.25fr 1fr 0.25fr 1fr 0.25fr 1fr;
+    text-align: center;
+    font-size: 3vh;
+}
+
+a {
+    color: #FFC300;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 10vh;
+    color: #900C3F;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 6vh;
+    color: #C70039;
+    text-align: right;
+}
+
+.body-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: right;
+    grid-gap: 5vw;
+}
+
+h4 {
+    color: #565B5D;
+    font-size: 3vh;
+    text-align: right;
+}
+
+.about-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2vw;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+}
+
+.img-div {
+    position: relative;
+}
+
+.img-div-sec {
+    width: 100%;
+    height: 34.5vh;
+}
+
+.main-div-first {
+    background-color: #1A2930;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    height: 100%;
+    display: grid;
+    color: white;
+}
+
+.main-div-first p, .main-div-second p, .main-div-third p {
+    font-size: 5vh;
+    align-self: center;
+    justify-self: center;
+    margin: 20px;
+    font-family: 'Droid Arabic Kufi', serif;
+}
+
+.img-div-sec img {
+    object-fit: cover;
+    object-position: center;
+    height: 34.5vh;
+}
+
+.img-name {
+    position: absolute;
+    width: 33%;
+    top: 0;
+    font-family: 'Droid Arabic Kufi', serif;
+    padding: 10px;
+    text-align: right;
+}
+
+.img-name-type1 {
+    background-color: #C70039;
+    right: 0;
+}
+
+.main-div-second {
+    background-color: #F7CE3E;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column: 1;
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+
+.main-div-third {
+    background-color: white;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 100%;
+    width: 100%;
+}
+
+.main-div-third p {
+    font-size: 2vh;
+    color: #565B5D
+}
+
+.menu-main {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2vw;
+    justify-content: center;
+}
+
+.menu-sec {
+    width: 100%;
+    height: 50vh;
+}
+
+.menu-sec img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+}
