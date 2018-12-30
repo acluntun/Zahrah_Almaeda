@@ -154,7 +154,7 @@ h4 {
 
 /* START MOBILE */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px) {
     .main-sec {
         display: flex;
         flex-direction: column;
